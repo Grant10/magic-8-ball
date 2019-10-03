@@ -6,12 +6,20 @@ public class Main {
 
     public static void main(String[] args) {
      //declare faze
-         Scanner Keyboard;
+        Scanner Keyboard;
     int testing;
     String question;
 
     //initialization faze
-   
+    Keyboard = new Scanner(System.in);
+        System.out.println("type a number 1-100 and give me a question");
+    int firstNumber = Keyboard.nextInt();
+    if(10>=firstNumber&&firstNumber >0) {
+        System.out.println("the outlook is very good");
+    }
+            if (20>=firstNumber&&firstNumber >11){
+            System.out.println("The outlook doesn't look very good");
+        }
 
 
 
